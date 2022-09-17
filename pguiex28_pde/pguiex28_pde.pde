@@ -6,7 +6,7 @@ void setup(){
   background(0,0,0);
   PFont font;
   //フォントの生成
-  font = createFont("Time New Roman",20);
+  font = createFont("Times New Roman",20);
   textFont(font);
   //テキストフィールドの生成
   cp5tf = new ControlP5(this);
